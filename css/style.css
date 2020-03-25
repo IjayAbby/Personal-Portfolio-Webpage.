@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1080px) {
+    body {
+      background-color: lightblue;
+    }
+    
+  }
+  nav {
+      display: flex;
+  }
+  #welcome-section{
+      height: 100%;
+      display: block;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+  }
+  li {
+      float: left;
+  }
+  li a {
+    color: #666;
+    display: block;
+    padding: 8px;
+
+  }
