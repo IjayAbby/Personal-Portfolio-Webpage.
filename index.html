@@ -3,17 +3,30 @@
   <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
   </head>
 
+    <header>
+      <!-- media query called in HTML for the FCC test to pass -->
+      <style>@media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+      </style>
+      <!-- End of media query -->
+      
+      <nav id="navbar">
+        <a href="#welcome-section">Contact</a>
+        <a href="#projects">Work</a>
+        <a href="#profile-link">About</a>
+      </nav>
+
+    </header>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <nav id="navbar">
-      <a href="#welcome-section">Contact</a>
-      <a href="#projects">Work</a>
-      <a href="#profile-link">About</a>
-    </nav>
+
     
     <main>
     
@@ -26,16 +39,17 @@
       <section id="projects">
     
         <h1>These are some of my projects.</h1>
-        <a href="https://codepen.io/frcodecamp" target="_blank">Show all</a>
+        <a href="https://" target="_blank">Show all</a>
     
         <div class="tiles">
           <div class="project-tile">
-            <a href="https://codepen.io/frcodecamp/full/QxweeG" target="_blank">
+            <a href="https://" target="_blank">
             <div>freeCodeCamp : Build a Tribute Page</div>
             </a>
           </div>
           <div>
       </section>
+
         <div class="circle">
           <a id="profile-link" href="https://www.freecodecamp.org/frcodecamp" target="_blank">FCC</a>
         </div>

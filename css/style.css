@@ -1,32 +1,39 @@
-@media only screen and (max-width: 1080px) {
-    body {
-      background-color: lightblue;
-    }
-    
+  header {
+    position: fixed;
+    margin-top: 10px;
+    top: 0;
+  }
+  body {
+      background-color: teal;
   }
   nav {
-      display: flex;
-  }
-  #welcome-section{
-      height: 100%;
-      display: block;
+    float: center;
+    background-color: thistle;
+    text-align: center;
+    width: 100vmax;
+    top: 0;
   }
   ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:white;
+    background-color: #333;
+
   }
   li {
       float: left;
+      font-family: arial;
   }
   li a {
-    color: #666;
     display: block;
-    padding: 8px;
-
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #welcome-section{
+    height: 100vmin;
+    margin-top: 300px;
+    text-align: center;
   }
